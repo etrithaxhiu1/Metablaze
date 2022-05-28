@@ -1,0 +1,93 @@
+.Footer{
+    position: relative;
+    .divideLine{
+        width: 100%;
+    }
+    .leftGoblin_footer, .rightGoblin_footer{
+        position: absolute;
+        bottom: 0;
+    }
+    .leftGoblin_footer{
+        left: 50px;
+        @media (max-width:991.98px) {
+            display: none;
+        }
+    }
+    .rightGoblin_footer{
+        right: 50px;
+        transform: scaleX(-1);
+        @media (max-width:768.98px) {
+            right: 30px;
+        }
+    }
+    .top_footer{
+        padding-top: 40px;
+        @media (max-width:991.98px) {
+            padding-top: 20px;
+            .footer_logo{
+                width: 180px;
+            }
+        }
+        .footer_nav_links{
+            align-self: end;
+            .footer_nav{
+                float: right;
+                @media (max-width:992.98px) {
+                    display: inline-grid;
+                    float: left;
+                }
+                .footer_links{
+                    padding-left: 40px;
+                    font-weight: 700;
+                    @media (max-width:992.98px) {
+                        padding-top: 25px;
+                        padding-left: 0px;
+                    }
+                    &:hover{
+                        color: #3BEDF9;
+                        transition: .3s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+    .bottom_footer{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        .copyrightMobile{
+            display: none;
+        }
+        @media (max-width:992.98px) {
+            .copyright{
+                display: none;
+            }
+            .copyrightMobile{
+                display: unset;
+            }
+        }
+        .social_medias{
+            float: right;
+            @media (max-width:992.98px) {
+                float: left;
+            }
+            .sm_link{
+                padding-left: 20px;
+                @media (max-width:992.98px) {
+                    padding-left: 25px;
+                }
+                &:hover{
+                    .social_media_icon{
+                        filter: invert(79%) sepia(47%) saturate(1759%) hue-rotate(150deg) brightness(308%) contrast(98%);
+                        transition: .3s ease-in-out;
+                    }
+                }
+            }
+            @media (max-width:992.98px) {
+                padding-bottom: 40px;
+                :first-child{
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.Home-page{
+    overflow-x: clip;    
+    .metaGoblinGallery-bg{
+        background-image: url(../../Assets/Images/bg-metagoblingallery.png);
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+}

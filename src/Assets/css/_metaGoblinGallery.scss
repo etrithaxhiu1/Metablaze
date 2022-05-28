@@ -1,0 +1,151 @@
+.MetaGoblinGallery-Section{
+    margin-bottom: 120px;
+    .metaGoblin_gallery{ 
+        text-align: center;
+        padding-top: 100px;
+        height: 75vh;
+        @media (max-width:991.98px) {
+            padding-top: 60px;
+        }
+        .metaGoblin_nftGalelry{
+            position: relative;
+            width: 100%;
+            margin-bottom: 50px;
+            @media (max-width:991.98px) {
+                display: none;
+            }
+        }
+        .metaGoblin_nftGalelryMobile{
+            position: relative;
+            display: none;
+            @media (max-width:991.98px) {
+                height: 110px;
+                display: unset;
+            }
+            @media (max-width:595.98px) {
+                height: 80px;
+            }
+            @media (max-width:424.98px) {
+                width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+        }
+        .home_mb_button{
+            display: none;
+            position: relative;
+            @media (max-width:991.98px) {
+                display: unset;
+                z-index: 999;
+                padding: 20px 50px;
+            }
+        }
+    }
+    .metaGoblin_cards{
+        margin: 0 auto;
+        @media (max-width:991.98px) {
+            margin-bottom: 70px;
+        }
+        .imgWidth{
+            width: 100%;
+            @media (max-width:768.98px) {
+                transform: scale(0.9);
+            }
+            @media (max-width:596.98px) {
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+        .middleGoblin{
+            width: 90%;
+            padding-left: 30px;
+            padding-top: 30px;
+            @media (max-width:991.98px) {
+                transform: scale(0.9);
+            }
+            @media (max-width:768.98px) {
+                padding-top: 30px;
+            }
+            @media (max-width:596.98px) {
+                width: 70%;
+                margin: 0 auto;
+                padding-left: 0px;
+                padding-top: 0px;
+            }
+        }
+    }
+    .discoverMetaGoblin{
+        background-image: url(../../Assets/Images/bg-discoverMetaGoblin.png);
+        text-align: center;
+        height: auto;
+        position: relative;
+        .discover_txt{
+            padding-top: 150px;
+            @media (max-width:1199.98px) {
+                width: 75%;
+            }
+            @media (max-width:991.98px) {
+                display: none;
+            }
+        }
+        .discover_txtMobile{
+            display: none;
+            margin-top: 150px;
+            @media (max-width:991.98px) {
+                height: 110px;
+                display: unset;
+            }
+            @media (max-width:339.98px) {
+                height: 100px;
+            }
+        }
+        .discoverParagraph{
+            margin: 60px auto;
+            width: 670px;
+            @media (max-width:1100.98px) {
+                width: 60%;
+            }
+            @media (max-width:768.98px) {
+                text-align: justify;
+            }
+            @media (max-width:499.98px) {
+                width: 85%;
+            }
+        }
+        .buttonVideo{
+            margin-bottom: 80px;
+            .btn_video{
+                padding: 13px 30px;
+                cursor: pointer;
+                img{
+                    padding-right: 10px;
+                    padding-bottom: 4px;
+                }
+            }
+        } 
+        .left_discoverGoblin, .right_discoverGoblin{
+            position: absolute;
+            bottom: 0;
+            z-index: -1;
+        }
+        .left_discoverGoblin{
+            left: 0;
+            @media (max-width:991.98px) {
+                display: none;
+            }
+        }
+        .right_discoverGoblin{
+            transform: scaleX(-1);
+            right: 0;
+            @media (max-width:991.98px) {
+                transform: scaleX(1);
+                right: 5%;
+                opacity: 0.6;
+            }
+        }
+    }
+    .divideLineMG{
+        margin-top: -30px;
+        width: 100%;
+    }
+}
